@@ -1,3 +1,48 @@
+# Back-End Developer - Node.js
+### Serkan Gündüz
+### 05398403001
+### serkan.gunduz@hosted.com.tr
+### https://github.com/srkn-gndz
+
+
+## To-Dos
+- [x] build a simple set of services with [Moleculer]
+- [x] using Redis as a caching system
+- [x] You have to use any messaging system for services transportation, RabbitMQ, NATs. (I used NATs as messaging system for services transportation)
+- [x] This services should have an API layer for the required functionality listed below.
+- [x] User can log in & register
+- [x] User can add products to the cart.
+- [x] User can get his cart summary.
+- [x] Use Elasticsearch as a database.
+- [x] Unit test with 100% coverage is a required.
+- [x] Should use TypeScript.
+- [x] Each service should run in a separate container.
+- [x] Redis, and Elasticsearch each in a separate container.
+- [x] Project should run with docker-compose.
+- [x] Explain how to run the application
+- [x] Required environments
+- [x] Any extra information
+
+
+# how to run the application
+## Install dependencies
+```bash
+$ npm i
+```
+
+## Development
+**to run containers with docker**
+```bash
+$ npm run dc:up
+```
+
+## Test
+```bash
+$ npm run test
+```
+
+
+
 # Knawat is hiring
 
 Work remotely or join our team @ the lovely Istanbul. For the full list click here https://knawat.com/career.
